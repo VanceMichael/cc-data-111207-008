@@ -1,0 +1,17 @@
+{
+  "uidvalidity": 7,
+  "messages": [
+    {
+      "uid": 11,
+      "raw": "From: lab@example.invalid\r\nTo: intake@example.invalid\r\nMessage-ID: <same@example.invalid>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"mix\"\r\n\r\n--mix\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n合成附件\r\n--mix\r\nContent-Type: text/csv\r\nContent-Disposition: attachment; filename=\"measure.csv\"\r\nContent-Transfer-Encoding: base64\r\n\r\naWQsdmFsdWUKQSwxOAo=\r\n--mix--\r\n"
+    },
+    {
+      "uid": 12,
+      "raw": "From: forwarder@example.invalid\r\nTo: intake@example.invalid\r\nMessage-ID: <forwarded@example.invalid>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"===============4678334656852093059==\"\r\n\r\n--===============4678334656852093059==\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: base64\r\n\r\n6L2s5Y+R55qE5ZCI5oiQ5qOA5rWL6LWE5paZCg==\r\n\r\n--===============4678334656852093059==\r\nContent-Type: message/rfc822\r\nContent-Transfer-Encoding: 8bit\r\nMIME-Version: 1.0\r\nContent-Disposition: attachment\r\n\r\nFrom: lab@example.invalid\r\nTo: intake@example.invalid\r\nMessage-ID: <same@example.invalid>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"mix\"\r\n\r\n--mix\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: base64\r\n\r\n5ZCI5oiQ6ZmE5Lu2\r\n\r\n--mix\r\nContent-Type: text/csv\r\nContent-Disposition: attachment; filename=\"measure.csv\"\r\nContent-Transfer-Encoding: base64\r\n\r\naWQsdmFsdWUKQSwxOAo=\r\n--mix--\r\n\r\n--===============4678334656852093059==\r\nContent-Type: application/octet-stream\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment;\r\n filename*=utf-8''%E7%A9%BA%E7%BB%93%E6%9E%9C.bin\r\nMIME-Version: 1.0\r\n\r\n\r\n--===============4678334656852093059==--\r\n"
+    },
+    {
+      "uid": 13,
+      "raw": "From: sender@example.invalid\r\nTo: intake@example.invalid\r\nMessage-ID: <inline@example.invalid>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"===============6594942687847773139==\"\r\n\r\n--===============6594942687847773139==\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: base64\r\n\r\n6YKu5Lu25YaF5ZCr56S65oSP5Zu+5LiO57yW56CB5paH5Lu25ZCNCg==\r\n\r\n--===============6594942687847773139==\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: inline\r\nContent-ID: <pixel>\r\nMIME-Version: 1.0\r\n\r\naW5saW5lLXBpeGVs\r\n\r\n--===============6594942687847773139==\r\nContent-Type: text/csv\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment;\r\n filename*=utf-8''%E4%BF%AE%E8%AE%A2%E6%B5%8B%E9%87%8F.csv\r\nMIME-Version: 1.0\r\n\r\naWQsdmFsdWUKQSwxOQo=\r\n\r\n--===============6594942687847773139==--\r\n"
+    }
+  ]
+}
